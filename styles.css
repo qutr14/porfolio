@@ -1,0 +1,27 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+.header {
+
+}
+.background-container {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-img {
+ width: 100vw;
+ height: 100vh;
+}
+.title {
+    position: absolute;
+    font-size: 150px;
+    color: #fff;
+    word-spacing: 15px;
+    box-shadow: 3px 3px 5px 5px #fff;
+    padding: 5px 10px;
+}
